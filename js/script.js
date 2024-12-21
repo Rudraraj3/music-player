@@ -49,18 +49,9 @@ const songs = [
 ];
 
 // Random Background Color
-const randomBgColor = function () {
-  // Get a random number between 64 to 256 (for getting lighter colors)
-  let red = Math.floor(Math.random() * 256) + 64;
-  let green = Math.floor(Math.random() * 256) + 64;
-  let blue = Math.floor(Math.random() * 256) + 64;
-
-  // Construct a color with the given values
-  let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
-
-  // Set the background to that color
-  document.body.style.background = bgColor;
-}
+background-image: url('https://i.imgur.com/KPDf0J9.jpeg'); /* Replace with your image file */
+background-size: cover;
+background-position: center;
 
 // Update DOM
 const loadSong = function (song) {
